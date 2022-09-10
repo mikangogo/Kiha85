@@ -1,0 +1,34 @@
+BveTs Vehicle Sound 3.00
+
+[Engine]
+0 = Engine_Idle.wav
+1 = Engine_1.wav
+2 = Engine_2.wav
+3 = Engine_2_1.wav
+4 = Engine_3.wav
+5 = Engine_4.wav
+6 = Engine_1850.wav
+7 = Engine_1944.wav
+
+
+[Gear]
+0 = Gear_0.wav
+1 = Gear_1.wav
+2 = Gear_2.wav
+
+[TransferGear1]
+0 = TransferGear_1_0.wav
+1 = TransferGear_1_1.wav
+
+[TransferGear2]
+0 = TransferGear_2_0.wav
+1 = TransferGear_2_1.wav
+
+[Exhaust]
+5 = Exhaust_4.wav
+6 = Exhaust_1850.wav
+7 = Exhaust_1944.wav
+
+
+[Turbine]
+;0 = Turbine0.wav

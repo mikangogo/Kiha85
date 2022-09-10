@@ -1,0 +1,20 @@
+﻿version: 1.1.00
+pip:
+  - prio: 0
+    init:
+    exec:
+      - cmd:
+        - run
+        - AtsPT4.dll
+      - cmd:
+        - run
+        - DMF14HZ_DW14.dll
+      - cmd:
+        - run
+        - BoosterBrake.dll
+      - cmd:
+        - run
+        - Shoe.dll
+      - cmd:
+        - run
+        - RealAnalogGauge\RealAnalogGauge.dll
