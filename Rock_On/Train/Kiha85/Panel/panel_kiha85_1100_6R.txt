@@ -1,4 +1,4 @@
-BveTs Instrument Panel 2.00:shift_jis
+BveTs Instrument Panel 2.00:utf-8
 
 [This]
 Resolution =3500
