@@ -146,9 +146,9 @@
     <AtsSRedLamp>1</AtsSRedLamp>
     <AtsPPower>2</AtsPPower>
     <AtsP>6</AtsP>
-    <AtsPNearPattern>4</AtsPNearPattern>
+    <AtsPNearPattern>3</AtsPNearPattern>
     <AtsPBrake>5</AtsPBrake>
-    <AtsPBrakeOpen>3</AtsPBrakeOpen>
+    <AtsPBrakeOpen>4</AtsPBrakeOpen>
     <AtsPBroken>7</AtsPBroken>
     <AtsEmgBrake>12</AtsEmgBrake>
     <ClockCounter>
