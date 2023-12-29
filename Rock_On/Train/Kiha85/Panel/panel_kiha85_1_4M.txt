@@ -1,0 +1,681 @@
+BveTs Instrument Panel 2.00:utf-8
+
+[This]
+Resolution =3500
+Left = 0
+Top = 0
+Right = 8192
+Bottom = 4096
+DaytimeImage = kiha85_1.png
+NighttimeImage = kiha85_1_N.png
+Center = 3764,1608
+Origin = 3764,1608
+
+;時計
+[Needle]
+Layer = 8
+Subject = hour
+Location = 2875,2653
+DaytimeImage   = hour.png
+NighttimeImage = hour_N.png
+Origin = 64,512
+Radius = 65
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 12
+NaturalFreq = 0
+
+[Needle]
+Layer = 9
+Subject = min
+Location = 2875,2653
+DaytimeImage   = min.png
+NighttimeImage = min_N.png
+Origin = 64,512
+Radius = 65
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+
+[Needle]
+Layer = 10
+Subject = sec
+Location = 2875,2653
+DaytimeImage   = sec.png
+NighttimeImage = sec_N.png
+Origin = 64,512
+Radius = 65
+InitialAngle = 0
+LastAngle = 360
+Minimum = 0
+Maximum = 60
+NaturalFreq = 0
+DampingRatio = 0.5
+
+
+;速度計
+[Needle]
+;Subject = kmph
+;Location = 3279,2628
+;DaytimeImage = NeedleSpeed.png
+;NighttimeImage =NeedleSpeed_N.png
+;Origin = 16, 230
+;Layer = 2
+;Radius = 155
+;InitialAngle = -117
+;LastAngle = 118
+;Minimum = 0
+;Maximum = 160
+;NaturalFreq = 6.3
+;DampingRatio = 0.5
+
+
+
+[Needle]
+Subject = ats252
+Location = 3279,2628
+DaytimeImage = NeedleSpeed.png
+NighttimeImage =NeedleSpeed_N.png
+Origin = 16, 230
+Layer = 2
+Radius = 155
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq = 6.3
+DampingRatio = 0.5
+
+[PilotLamp]
+Subject = true
+Location = 3215,2554
+DaytimeImage =spt2.png
+NighttimeImage =spt2_N.png
+Layer =3
+
+;圧力計
+;[Needle]
+;Subject = bc
+;Location = 3770,2628
+;DaytimeImage = pressure-needle-low.png
+;NighttimeImage =pressure-needle-low_N.png
+;Origin = 128,512
+;Layer = 1
+;Radius = 150
+;InitialAngle = -135
+;LastAngle = 135
+;Minimum = 0
+;Maximum = 1500
+;NaturalFreq      = 0
+;NaturalFreq      = 150
+;DampingRatio     = 0.01
+
+[Needle]
+Subject = ats251
+Location = 3770,2628
+DaytimeImage = pressure-needle-low.png
+NighttimeImage =pressure-needle-low_N.png
+Origin = 128,512
+Layer = 1
+Radius = 150
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq      = 0
+NaturalFreq      = 90
+DampingRatio     = 0.03
+
+;[Needle]
+;Subject = mr
+;Location = 3770,2628
+;DaytimeImage = pressure-needle-high.png
+;NighttimeImage =pressure-needle-high_N.png
+;Origin = 128,512
+;Layer = 2
+;Radius = 150
+;InitialAngle = -135
+;LastAngle = 135
+;Minimum = 0
+;Maximum = 1500
+;NaturalFreq      = 150
+;DampingRatio     = 0.01
+
+[Needle]
+Subject = ats250
+Location = 3770,2628
+DaytimeImage = pressure-needle-high.png
+NighttimeImage =pressure-needle-high_N.png
+Origin = 128,512
+Layer = 2
+Radius = 150
+InitialAngle = -180
+LastAngle = 180
+Minimum = 0
+Maximum = 360000
+NaturalFreq      = 90
+DampingRatio     = 0.03
+
+[PilotLamp]
+Subject = true
+Location = 3770,2628
+DaytimeImage =prt2.png
+NighttimeImage =prt2_N.png
+Layer =3
+
+;戸開
+[Pilotlamp]
+Subject          = door
+Location         = 2409,2385
+DaytimeImage     = tokai_pre.png
+NighttimeImage   = tokai_pre_N.png
+Layer            = 8
+
+[Pilotlamp]
+Subject          = ats10
+Location         = 4389,2759
+DaytimeImage     = eb_dousa.png
+NighttimeImage   = eb_dousa_N.png
+Layer            = 4
+
+[PilotLamp]
+Subject = door
+Location = 2809,2289
+DaytimeImage =tojime.png
+NighttimeImage =tojime_N.png
+Layer = 1
+
+[PilotLamp]
+Subject = ats8
+Location = 4502,2452
+DaytimeImage =fwd.png
+NighttimeImage =fwd_N.png
+Layer = 1
+
+[PilotLamp]
+Subject = ats9
+Location = 4574,2452
+DaytimeImage =rvs.png
+NighttimeImage =rvs_N.png
+Layer = 2
+
+[PilotLamp]
+Subject = true
+Location = 4313,2451
+DaytimeImage =ki.png
+NighttimeImage =ki_N.png
+Layer = 3
+
+[PilotLamp]
+Subject = ats51
+Location = 4513,2555
+DaytimeImage =dr1.png
+NighttimeImage =dr1_N.png
+Layer = 3
+
+[PilotLamp]
+Subject = ats52
+Location = 4613,2555
+DaytimeImage =dr2.png
+NighttimeImage =dr2_N.png
+Layer = 3
+
+[PilotLamp]
+Subject = ats46
+Location = 4267,2551
+DaytimeImage =n.png
+NighttimeImage =n_N.png
+Layer = 3
+
+[DigitalNumber]
+Subject = power
+Location = 1898,2792
+DaytimeImage =power.png
+NighttimeImage =power_N.png
+Layer = 7
+Interval = 1024
+
+[DigitalNumber]
+Subject = brake
+Location = 3234,2950
+DaytimeImage =brake.png
+NighttimeImage =brake_N.png
+Layer = 7
+Interval = 600
+
+[PilotLamp]
+Subject = ats43
+Location = 4389,2551
+DaytimeImage =sh.png
+NighttimeImage =sh_N.png
+Layer = 3
+
+;増圧B
+[PilotLamp]
+Subject = ats60
+Location = 4513,2657
+DaytimeImage =TB.png
+NighttimeImage =TB_N.png
+Layer = 5
+
+
+;コンバーターB
+[PilotLamp]
+Subject = ats40
+Location = 4613,2657
+DaytimeImage =CB.png
+NighttimeImage =CB_N.png
+Layer = 5
+
+
+;エンジンB
+[PilotLamp]
+Subject = ats41
+Location = 4613,2759
+DaytimeImage =B.png
+NighttimeImage =B_N.png
+Layer = 5
+
+
+[PilotLamp]
+Subject = ats0
+Location = 4312,2760
+DaytimeImage =ats.png
+NighttimeImage =ats_N.png
+Layer = 8
+
+[Pilotlamp]
+Subject          = ats2
+Location         = 3403,1996 
+DaytimeImage     = ppower.png
+NighttimeImage   = ppower_N.png
+Layer            = 2
+
+[Pilotlamp]
+Subject          = ats3
+Location         = 3532,1995
+DaytimeImage     = ppattern.png
+NighttimeImage   = ppattern_N.png
+Layer            = 2
+
+;[Pilotlamp]
+;Subject          = ats14
+;Location         = 3284,1995
+;DaytimeImage     = ppattern.png
+;NighttimeImage   = ppattern_N.png
+;Layer            = 2
+
+[Pilotlamp]
+Subject          = ats5
+Location         = 3660,1995
+DaytimeImage     = papply.png
+NighttimeImage   = papply_N.png
+Layer            = 3
+
+;[Pilotlamp]
+;Subject          = ats15
+;Location         = 3412,1995
+;DaytimeImage     = papply.png
+;NighttimeImage   = papply_N.png
+;Layer            = 3
+
+
+[Pilotlamp]
+Subject          = ats4
+Location         = 3767,1995
+DaytimeImage     = prelease.png
+NighttimeImage   = prelease_N.png
+Layer            = 3
+
+[Pilotlamp]
+Subject          = ats6
+Location         = 3897,1996
+DaytimeImage     = atsp.png
+NighttimeImage   = atsp_N.png
+Layer            = 3
+
+[Pilotlamp]
+Subject          = ats7
+Location         = 4013,1996
+DaytimeImage     = pfailure.png
+NighttimeImage   = pfailure_N.png
+Layer            = 3
+
+;前照灯Hi
+[PilotLamp]
+Subject = ats220
+Location = 0,0
+DaytimeImage =frontLampHi.png
+NighttimeImage =frontLampHi_N.png
+Layer = -1
+
+;前照灯SW_ON
+[PilotLamp]
+Subject = ats220
+Location = 2508,3118
+DaytimeImage =frontLampON.png
+NighttimeImage =frontLampON_N.png
+Layer = 2
+
+;前照灯SW_Hi
+[PilotLamp]
+Subject = ats220
+Location = 2702,3118
+DaytimeImage =frontLampHL.png
+NighttimeImage =frontLampHL_N.png
+Layer = 2
+
+;前照灯Lo
+[PilotLamp]
+Subject = ats221
+Location = 0,0
+DaytimeImage =frontLampLo.png
+NighttimeImage =frontLampLo_N.png
+Layer = -1
+
+;前照灯SW_ON
+[PilotLamp]
+Subject = ats221
+Location = 2508,3118
+DaytimeImage =frontLampON.png
+NighttimeImage =frontLampON_N.png
+Layer = 2
+
+;前照灯SW_Lo
+;[PilotLamp]
+;Subject = ats221
+;Location = 2702,3118
+;DaytimeImage =frontLampHL.png
+;NighttimeImage =frontLampHL_N.png
+;Layer = 2
+
+;1両目
+[PilotLamp]
+Subject = true
+Location = 2203,2420
+DaytimeImage = Car_Num\C4_pre.png
+NighttimeImage = Car_Num\C4_pre_N.png
+Layer =3
+
+;2両目
+[PilotLamp]
+Subject = true
+Location = 2203,2462
+DaytimeImage = Car_Num\C3_pre.png
+NighttimeImage = Car_Num\C3_pre_N.png
+Layer =3
+
+;3両目
+[PilotLamp]
+Subject = true
+Location = 2203,2504
+DaytimeImage = Car_Num\C2_pre.png
+NighttimeImage = Car_Num\C2_pre_N.png
+Layer =3
+
+;4両目
+[PilotLamp]
+Subject = true
+Location = 2203,2546
+DaytimeImage = Car_Num\C1p_pre.png
+NighttimeImage = Car_Num\C1p_pre_N.png
+Layer =3
+
+;5両目
+:[PilotLamp]
+:Subject = true
+:Location = 2203,2588
+:DaytimeImage = Car_Num\C4_pre.png
+:NighttimeImage = Car_Num\C4_pre_N.png
+:Layer =3
+
+;6両目
+:[PilotLamp]
+:Subject = true
+:Location = 2203,2630
+:DaytimeImage = Car_Num\C3_pre.png
+:NighttimeImage = Car_Num\C3_pre_N.png
+:Layer =3
+
+;7両目
+:[PilotLamp]
+:Subject = true
+:Location = 2203,2672
+:DaytimeImage = Car_Num\C2_pre.png
+:NighttimeImage = Car_Num\C2_pre_N.png
+:Layer =3
+
+;8両目
+:[PilotLamp]
+:Subject = true
+:Location = 2203,2714
+:DaytimeImage = Car_Num\C1p_pre.png
+:NighttimeImage = Car_Num\C1p_pre_N.png
+:Layer =3
+
+;9両目
+;[PilotLamp]
+;Subject = true
+;Location = 2315,2742
+;DaytimeImage = Car_Num\C1_pre.png
+;NighttimeImage = Car_Num\C1_pre_N.png
+;Layer =3
+
+;10両目
+;[PilotLamp]
+;Subject = true
+;Location = 2315,2784
+;DaytimeImage = Car_Num\C1_pre.png
+;NighttimeImage = Car_Num\C1_pre_N.png
+;Layer =3
+
+;11両目
+;[PilotLamp]
+;Subject = true
+;Location = 2315,2826
+;DaytimeImage = Car_Num\C1Rpre.png
+;NighttimeImage = Car_Num\C1_pre_N.png
+;Layer =3
+
+;12両目
+;[PilotLamp]
+;Subject = true
+;Location = 2315,2868
+;DaytimeImage = Car_Num\C1_pre.png
+;NighttimeImage = Car_Num\C1_pre_N.png
+;Layer =3
+
+;1両目
+[PilotLamp]
+Subject = doorl0
+Location = 2273,2426
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;2両目
+[PilotLamp]
+Subject = doorl1
+Location = 2273,2468
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;3両目
+[PilotLamp]
+Subject = doorl2
+Location = 2273,2510
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;4両目
+[PilotLamp]
+Subject = doorl3
+Location = 2273,2552
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;5両目
+;[PilotLamp]
+;Subject = doorl4
+;Location = 2273,2594
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;6両目
+;[PilotLamp]
+;Subject = doorl5
+;Location = 2273,2636
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;7両目
+;[PilotLamp]
+;Subject = doorl6
+;Location = 2273,2678
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;8両目
+;[PilotLamp]
+;Subject = doorl7
+;Location = 2273,2720
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;9両目
+;[PilotLamp]
+;Subject = doorl8
+;Location = 2385,2748
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;10両目
+;[PilotLamp]
+;Subject = doorl9
+;Location = 2385,2790
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;11両目
+;[PilotLamp]
+;Subject = doorl10
+;Location = 2385,2832
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;12両目
+;[PilotLamp]
+;Subject = doorl11
+;Location = 2385,2874
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;1両目
+[PilotLamp]
+Subject = doorr0
+Location = 2273,2426
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;2両目
+[PilotLamp]
+Subject = doorr1
+Location = 2273,2468
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;3両目
+[PilotLamp]
+Subject = doorr2
+Location = 2273,2510
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;4両目
+[PilotLamp]
+Subject = doorr3
+Location = 2273,2552
+DaytimeImage = car_door_pre.png
+NighttimeImage = car_door_pre.png
+Layer = 2
+
+;5両目
+;[PilotLamp]
+;Subject = doorr4
+;Location = 2273,2594
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;6両目
+;[PilotLamp]
+;Subject = doorr5
+;Location = 2273,2636
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;7両目
+;[PilotLamp]
+;Subject = doorr6
+;Location = 2273,2678
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;8両目
+;[PilotLamp]
+;Subject = doorr7
+;Location = 2273,2720
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;9両目
+;[PilotLamp]
+;Subject = doorr8
+;Location = 2385,2748
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;10両目
+;[PilotLamp]
+;Subject = doorr9
+;Location = 2385,2790
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;11両目
+;[PilotLamp]
+;Subject = doorr10
+;Location = 2385,2832
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2
+
+;12両目
+;[PilotLamp]
+;Subject = doorr12
+;Location = 2385,2874
+;DaytimeImage = car_door_pre.png
+;NighttimeImage = car_door_pre.png
+;Layer = 2

@@ -58,6 +58,6 @@ AlightingSpeed = 1.8
 CloseTime = 4.3
 
 [ViewPoint]
-X = -0.7
-Y = 2.7
-Z = -1.5
+X = -0.75
+Y = 2.5
+Z = -1.6

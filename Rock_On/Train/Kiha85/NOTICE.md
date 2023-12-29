@@ -16,7 +16,7 @@
 ## 改変
 
 - 以下に指定するファイルに限り改変し配布できます。
-  - ./Notch/Parameters6M.txt
+  - ./Notch/Parameters*.txt
   - ./Vehicle_txt/*
   - ./Sound_txt/*
 - 他のファイルについては、許可できません。
@@ -91,3 +91,14 @@
 #### ファイル
 
 - ./Sound/FromSzHal/*
+
+
+### 前照灯プラグイン
+
+#### 作者
+
+- [みゆきー(仮)様](https://sites.google.com/view/miyuki-1701/%E3%83%9B%E3%83%BC%E3%83%A0)
+
+#### ファイル
+
+- ./ATS/frontlamp_x86.dll

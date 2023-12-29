@@ -1,0 +1,63 @@
+BveTs Vehicle Parameters 2.01
+
+FirstCar = M
+LoadCompensating = true
+
+[Cab]
+BrakeNotchCount = 8
+PowerNotchCount = 5
+MotorBrakeNotch = 1
+AtsCancelNotch = 1
+HoldingSpeedBrake = false
+
+[MainCircuit]
+RegenerationLimit = 999
+LeverDelay = 0.6
+BrakePriority = false
+
+[ECB]
+MaximumPressure = 318500
+PressureRates = 0, 0.116923077, 0.230769231, 0.353846154, 0.470769231, 0.587692308, 0.704615385, 0.824615385, 1, 1, 0, 0.166153846, 0.329230769, 0.495384615, 0.658461538, 0.824615385, 0.987692308, 1.153846154, 1.4, 1.4
+LeverDelay = 0.2
+
+[AirSupplement]
+MaximumPressure = 318500
+
+[BcServo]
+ApplyStart = 20000
+ApplyStop = 0
+ReleaseStart = 20000
+ReleaseStop = 0
+ApplySpeed = 850
+ReleaseSpeed = 400
+
+[Brake]
+PistonArea = 0.528
+ShoeFriction = 0.42, 0.013, 0.03
+;ShoeFriction = 0.26, 0.01, 0.025
+
+[Compressor]
+UpperPressure = 780000
+LowerPressure = 695000
+CompressionSpeed = 4500
+
+[Dynamics]
+MotorcarWeight = 41600
+MotorcarCount = 8
+TrailerWeight = 0
+TrailerCount = 0
+CarLength = 21.3
+
+[Passengers]
+Capacity = 50
+BodyWeight = 65
+BoardingSpeed = 1.5
+AlightingSpeed = 1.8
+
+[Door]
+CloseTime = 4.3
+
+[ViewPoint]
+X = -0.75
+Y = 2.5
+Z = -1.6

@@ -1,0 +1,6 @@
+﻿BveTs Vehicle 1.00
+PerformanceCurve = ../Notch\Notch.txt
+Parameters = ../Notch\Parameters8M.txt
+Panel = ../Panel\Panel_kiha85_1101_8M_25D-CG00.txt
+Sound = ../Sound_txt\Sound.txt
+Ats = ../ATS\PluginOrganizer.dll
