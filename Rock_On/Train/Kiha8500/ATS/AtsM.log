@@ -1,0 +1,127 @@
+15:42:16.707:KeyAssign Setting
+15:42:16.708:KeyAssign[0]:AtsConfirmation
+15:42:16.708:KeyAssign[1]:AlarmDuration
+15:42:16.708:KeyAssign[2]:EBDeviceReset
+15:42:16.708:KeyAssign[3]:AtsReset
+15:42:16.708:KeyAssign[4]:SelectSwitch
+15:42:16.708:KeyAssign[7]:AtcChange
+15:42:16.708:KeyAssign[11]:ConductorBuzzer
+15:42:16.708:KeyAssign[13]:SlopeStart
+15:42:16.708:KeyAssign[14]:AtsChangeM
+15:42:16.708:KeyAssign[15]:PromotionLoop
+15:42:16.708:Mode:EmgBrake, Input=Keyboard, Code=49
+15:42:16.714:Panel Setting
+15:42:16.715: Index:201, Value=OUT_POWER
+15:42:16.715: Index:119, Value=PANEL_POWER
+15:42:16.715: Index:202, Value=OUT_BRAKE
+15:42:16.715: Index:120, Value=PANEL_BRAKE
+15:42:16.715: Index:200, Value=OUT_REVERSER
+15:42:16.715: Index:8, Value=PANEL_REVERSER
+15:42:16.715: Index:203, Value=OUT_CSC
+15:42:16.715: Index:121, Value=VOLTAGE
+15:42:16.715: Index:109, Value=UNIT1
+15:42:16.715: Index:133, Value=UNIT2
+15:42:16.715: Index:134, Value=UNIT3
+15:42:16.715: Index:128, Value=CHOP_OVER_VOLTAGE
+15:42:16.715: Index:129, Value=CHOP_REVOCATION
+15:42:16.715: Index:50, Value=OSR
+15:42:16.715: Index:41, Value=ATSM_ATS
+15:42:16.715: Index:198, Value=ATSM
+15:42:16.715: Index:45, Value=ATSM_BRAKE
+15:42:16.715: Index:46, Value=ATSM_EB
+15:42:16.715: Index:48, Value=ATSM_BROKEN
+15:42:16.715: Index:197, Value=ATSM_JR
+15:42:16.715: Index:14, Value=ATC_SIGNAL
+15:42:16.715: Index:40, Value=ATSM_ATC
+15:42:16.715: Index:43, Value=ATSM_ATC_SVC
+15:42:16.715: Index:44, Value=ATSM_ATC_EB
+15:42:16.715: Index:51, Value=ATC_FRONT
+15:42:16.715: Index:52, Value=ATC_SIG_LAMP
+15:42:16.715: Index:54, Value=ATC_HANDLE
+15:42:16.715: Index:23, Value=ONEMAN
+15:42:16.715: Index:24, Value=ONEMAN_ALL
+15:42:16.715: Index:26, Value=ONEMAN_AUTO
+15:42:16.715: Index:241, Value=CAUTION_STOP
+15:42:16.715: Index:19, Value=PILOT
+15:42:16.715: Index:100, Value=HOUR10
+15:42:16.715: Index:101, Value=HOUR01
+15:42:16.715: Index:102, Value=MIN10
+15:42:16.715: Index:103, Value=MIN01
+15:42:16.715: Index:104, Value=SEC10
+15:42:16.715: Index:105, Value=SEC01
+15:42:16.715: Index:115, Value=BC
+15:42:16.715: Index:118, Value=MR
+15:42:16.715: Index:16, Value=SLOPE
+15:42:16.715: Index:17, Value=CSC
+15:42:16.715: Index:18, Value=SNOW
+15:42:16.715: Index:124, Value=LOC100
+15:42:16.715: Index:125, Value=LOC010
+15:42:16.715: Index:126, Value=LOC001
+15:42:16.715: Index:127, Value=LOC_S1
+15:42:16.715: Index:135, Value=MASCON
+15:42:16.715: Index:29, Value=SELECT
+15:42:16.715: Index:0, Value=ATSS_WHITE
+15:42:16.715: Index:1, Value=ATSS_RED
+15:42:16.715: Index:2, Value=ATSP_POWER
+15:42:16.715: Index:6, Value=ATSP
+15:42:16.715: Index:4, Value=ATSP_NEAR
+15:42:16.715: Index:5, Value=ATSP_BRAKE
+15:42:16.715: Index:3, Value=ATSP_DISCONNECT
+15:42:16.715: Index:7, Value=ATSP_BROKEN
+15:42:16.715: Index:12, Value=ATS_EB
+15:42:16.715: Index:20, Value=ACCIDENT
+15:42:16.715: Index:21, Value=THREEPHASE
+15:42:16.715: Index:27, Value=LIMP
+15:42:16.715: Index:28, Value=LIMP_SPEED
+15:42:16.715: Index:245, Value=CLOCKCOUNTER0
+15:42:16.715: Index:246, Value=CLOCKCOUNTER1
+15:42:16.715: Index:247, Value=CLOCKCOUNTER2
+15:42:16.715: Index:248, Value=CLOCKCOUNTER3
+15:42:16.715: Index:249, Value=CLOCKCOUNTER4
+15:42:16.715: Index:250, Value=FREEVALUE0
+15:42:16.715: Index:251, Value=FREEVALUE1
+15:42:16.715: Index:252, Value=FREEVALUE2
+15:42:16.715: Index:253, Value=FREEVALUE3
+15:42:16.715: Index:254, Value=FREEVALUE4
+15:42:16.715: Index:255, Value=FREEVALUE5
+15:42:16.715:Sound Setting
+15:42:16.715: Index:249, Value=HOLDCHOPPER
+15:42:16.715: Index:250, Value=NORMALCHOPPER
+15:42:16.715: Index:4, Value=ATC_BELL
+15:42:16.715: Index:29, Value=SELECT
+15:42:16.715: Index:23, Value=PROMOTION
+15:42:16.715: Index:24, Value=PROMO_VOICE
+15:42:16.715: Index:180, Value=CONDUCTOR
+15:42:16.715: Index:20, Value=EB_ANNOUNCE
+15:42:16.715: Index:0, Value=ATSS_BELL
+15:42:16.715: Index:1, Value=ATSS_CHAIM
+15:42:16.715: Index:26, Value=OFF_CAUTION
+15:42:16.715: Index:12, Value=ATSS_CHANGE
+15:42:16.715: Index:2, Value=ATSP_CHAIM
+15:42:16.715: Index:5, Value=ATSP_CHAIM2
+15:42:16.715: Index:70, Value=STOP_CAUTION
+15:42:16.715: Index:125, Value=DOOR_OPENED
+15:42:16.716:[PT4.Load] AtsM 4.14.1.0 (32bit Process)
+15:42:16.720:Formキーハンドラセット (Error) オブジェクト参照がオブジェクト インスタンスに設定されていません。
+15:42:23.296:[Initialize]:InitialHandle=-1
+15:42:23.296:[ST.Reset]
+15:42:23.296:[ST.Initialize]
+15:42:23.298:[Initialize] - End
+15:42:23.310:[PassMaxSpeedBeacon] Spd=110.00
+15:42:23.311:[PassMaxSpeedBeacon] Spd=110.00
+15:42:23.311:[PassMaxSpeedBeacon] Spd=110.00
+15:42:23.311:[PassMaxSpeedBeacon] Spd=110.00
+15:44:30.429:Beacon10スルー Speed=18.28 NowAts=M
+15:45:31.142:[ST.PushAtsReset] NG
+15:45:32.827:[ST.PushAtsReset] NG
+15:45:34.094:[ST.PushAlarmDuration]
+15:45:36.012:[ST.PushAtsReset] NG
+15:45:39.583:[ST.PushAtsReset] NG
+15:45:39.749:[ST.PushAtsReset] NG
+15:45:40.066:[ST.PushAlarmDuration]
+15:45:41.284:[ST.PushAtsReset] NG
+15:45:43.985:[ST.Reset]
+15:45:43.985:[ST.PushAtsReset] OK
+15:45:49.657:[ST.PushAlarmDuration]
+15:46:14.594:[PassStartTimerStBeacon] Optional=750 Speed=26.84
+15:47:25.887:[PT4.Dispose]

@@ -1,0 +1,71 @@
+BveTs Vehicle Sound 3.01:utf-8
+
+[Run]
+
+;定尺
+0 = ..\..\Kiha85\Sound\From3asterSwitch\Run_25m.wav
+
+;長尺
+1 = ..\..\Kiha85\Sound\From3asterSwitch\Run_Long.wav
+
+;橋梁
+2 = ..\..\Kiha85\Sound\From3asterSwitch\Run_Bridge_25m.wav
+
+;スラブ
+3 = ..\..\Kiha85\Sound\From3asterSwitch\Run_Tunnel_Long.wav
+
+;トンネル
+4 = ..\..\Kiha85\Sound\From3asterSwitch\Run_Tunnel_Long.wav
+5 = ..\..\Kiha85\Sound\From3asterSwitch\Run_Tunnel_25m.wav
+
+;踏切
+12 = ..\..\Kiha85\Sound\From3asterSwitch\Crossing_0.wav
+
+[Flange]
+
+[Joint]
+0 = ..\..\Kiha85\Sound\From3asterSwitch\Switch_0.wav
+
+[Brake]
+BC Release High = ..\..\Kiha85\Sound\From3asterSwitch\AirHigh.wav
+BC Release      = ..\..\Kiha85\Sound\From3asterSwitch\Air.wav
+BC Release Full = ..\..\Kiha85\Sound\From3asterSwitch\AirZero.wav
+
+
+[Compressor]
+
+[AirSpring]
+
+[Horn]
+Primary  = ..\Sound\Horn_Kiha8500_On.wav
+PrimaryRelease  = ..\Sound\Horn_Kiha8500_Release.wav
+
+[Door]
+
+[Ats]
+0 = ..\..\Kiha85\Sound\Ats.wav
+1 = ..\..\Kiha85\Sound\AtsCnt.wav
+2 = ..\..\Kiha85\Sound\From3asterSwitch\ATS-P.wav
+3 = ..\..\Kiha85\Sound\eb.wav
+
+[Buzzer]
+
+[Pilot Lamp]
+On  = ..\..\Kiha85\Sound\From3asterSwitch\Leave.wav
+
+[Suspension]
+
+[Others]
+Noise = ..\..\Kiha85\Sound\From3asterSwitch\Loop.wav
+
+[Reverser]
+
+[Brake Handle]
+
+[MasterController]
+
+
+[Shoe]
+0 = ..\..\Kiha85\Sound\From3asterSwitch\Shoe_0.wav
+1 = ..\..\Kiha85\Sound\From3asterSwitch\Shoe_1.wav
+2 = ..\..\Kiha85\Sound\From3asterSwitch\Shoe_2.wav
